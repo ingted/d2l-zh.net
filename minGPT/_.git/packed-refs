@@ -1,0 +1,4 @@
+# pack-refs with: peeled fully-peeled sorted 
+a796899f656345ac541aba49eccb368f49b7d730 refs/remotes/origin/feature/lightning
+37baab71b9abea1b76ab957409a1cc2fbfba8a26 refs/remotes/origin/master
+12f346a63d03ce3c81db660d332101e4492dee1f refs/remotes/origin/refactor_wip
