@@ -1,0 +1,24 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"name":"csharp"}]}}
+
+#!fsharp
+
+#r "nuget: torchsharp-cuda-windows" //for gpu
+#r "nuget: TorchSharp"
+#r "nuget: TfCheckpoint"   
+open TfCheckpoint
+open TorchSharp
+
+#!fsharp
+
+let x = torch.arange(12)
+x
+
+#!fsharp
+
+x.shape
+
+#!fsharp
+
+x.numel()
